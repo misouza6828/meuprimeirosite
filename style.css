@@ -64,13 +64,25 @@ a{
 }
 
 .principal{
-   background: #ff6cb5;
-   height: 40px;
-   max-width: 60%;
-    margin:0 auto;
-  
- }
+  background: #ff6cb5;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.principal ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  padding: 0 40px;
+  margin: 0;
+}
 
+.principal li{
+  flex: 1;
+  text-align: center;
+}
 .principal a{
    color: #fff;
    text-decoration: underline;
